@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista</title>
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas ordenadas (a ordem faz a diferença)</h2>
+    <ol type="1">         <!--Types de OL: 1 / A / a / I / i -->
+        <li>Acordar</li>  <!--Para deixar a lista em numeração, não é obrigatório fechar a TAG LI-->
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li> 
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li> Voltar para a casa</li>
+        <li>Jantar</li>
+        <li>Descansar</li>
+        <li>Dormir</li>
+    </ol>
+    <h2>Lista não Ordenadas (a ordem não faz a diferença)</h2>
+    <ul type="disc">        <!--Types de UL: disc / circle / square -->
+        <li>Pão</li>        <!--Para deixar a lista em numeração, não é obrigatório fechar a TAG LI-->
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li> 
+    </ul>
+    <h2>Minhas linguagens favoritas</h2>
+    <ol>
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Cliper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5"> <!--Start é uma tag numérica, então sempre tem que começar com algum número, mesmo que a lista não esteja em ordem numérica-->
+            <li>Python</li>
+            <li>PHP</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+    <h2>Meus jogos favoritos</h2>
+    <ol type="1">
+        <li>Nintendo</li>
+        <ul type="disc">
+            <li>Mario Bros</li>
+            <li>Ninja Gaiden</li>
+        </ul>
+        <li>SuperNintendo</li>
+        <ul type="disc">
+            <li>Mario Bros</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>PlayStation</li>
+        <ul type="disc">
+            <li>Final Fantasy</li>
+            <li>FIFA</li>
+        </ol>
+    </ol>
+    <h2>Lista de definições</h2> <!--DT = TERMO-->    <!-- DD = DESCRIÇÃO-->
+    <dl>
+        <dt>HTML</dt> 
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> 
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação para o design de um site.</dd>
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programação para a criaçõa de interatividade de um site</dd>
+    </dl>
+</body>
+</html>
